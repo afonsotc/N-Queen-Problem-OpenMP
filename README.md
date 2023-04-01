@@ -33,4 +33,4 @@ gcc -fopenmp todaspossibilidades.c -o nome_do_executavel
 ```
 # Observações
 
-Não é possivel compilar sem adicionar ``` -fopenmp ``` pois estou utilizando as funções ```omp_get_wtime()```, ```omp_set_dynamic()``` e ```omp_set_num_thread()```. Caso queira utilizar a versão serial é preciso modificar o argumento ```numero_de_threads``` para 0 na hora de executar.
+Não é possivel compilar sem adicionar ``` -fopenmp ``` pois estou utilizando as funções ```omp_get_wtime()```, ```omp_set_dynamic()``` e ```omp_set_num_thread()```. Caso queira utilizar a versão serial é preciso modificar o argumento ```numero_de_threads``` para ```0``` na hora de executar.
