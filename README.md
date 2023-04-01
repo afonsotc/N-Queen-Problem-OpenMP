@@ -10,7 +10,7 @@ Existem dois arquivos de implementação, um para encontrar uma solução e most
 Abaixo os passos para compilar e utilizar o código:
 
 
-# Mostrar uma possibilidade #
+# Mostrar uma combinação #
 
 * Compilar
 ```
@@ -21,7 +21,7 @@ gcc -fopenmp primeirapossibilidade.c -o nome_do_executavel
 ./nome_do_executavel tamanho_tabuleiro numero_de_threads
 ```
 
-# Calcular todas possibiidades
+# Calcular todas combinações
 
 * Compilar
 ```
