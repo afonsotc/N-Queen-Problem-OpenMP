@@ -5,7 +5,7 @@ Trabalho prático para disciplina de INTRODUÇÃO PROCESSAMENTO PARALELO E DISTR
 Integrantes: Afonso Theil Cabreira
 
 
-Existem dois arquivos de implementação, um para encontrar todas possibilidades para um tabuleiro de tamanho N, e outro para encontrar uma possibilidade e mostra-la na tela.
+Existem dois arquivos de implementação, um para encontrar uma solução e mostra-la na tela e outro para calcular todas possibilidades.
 
 Abaixo os passos para compilar e utilizar o código:
 
@@ -33,4 +33,4 @@ gcc -fopenmp todaspossibilidades.c -o nome_do_executavel
 ```
 # Observações
 
-Não é possivel compilar sem adicionar ``` -fopenmp ``` pois estou utilizando as funções ```omp_get_wtime()```, ```omp_set_dynamic()``` e ```omp_set_num_thread()```. Caso queira utilizar a versão serial é preciso modificar o argumento ```numero_de_threads``` para 0 ou 1 na hora de executar.
+Não é possivel compilar sem adicionar ``` -fopenmp ``` pois estou utilizando as funções ```omp_get_wtime()```, ```omp_set_dynamic()``` e ```omp_set_num_thread()```. Caso queira utilizar a versão serial é preciso modificar o argumento ```numero_de_threads``` para 0 na hora de executar.
